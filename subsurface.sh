@@ -31,8 +31,8 @@ live_subdomains_file=$subdomains/live.txt
 # Enumerate subdomains using subfinder, amass, assetfinder and sublist3r more to follow
 echo "[*] Enumerating subdomains of $domain"
 subfinder -d $domain > $subdomains_temp
-#amass enum -d $domain >> $subdomains_temp
-#assetfinder $domain >> $subdomains_temp
+amass enum -d $domain >> $subdomains_temp
+assetfinder $domain >> $subdomains_temp
 #sublist3r -d $domain >> $subdomains_temp
 
 # filter out any out of scope domains, duplicates or stdio junk from the scripts
