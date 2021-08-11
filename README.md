@@ -22,13 +22,14 @@ $ ./subsurface.sh cia.gov -subnet
 ## Installation
 
 Before you can run subsurface you will need to make sure that you have the following programs installed and available via your `PATH` environmental variable.
-    * subfinder
-    * amass
-    * assetfinder
-    * sublist3r
-    * gowitness
-    * fping
-    * whois
+
+* subfinder
+* amass
+* assetfinder
+* sublist3r
+* gowitness
+* fping
+* whois
 
 ## Problems and Contributions
 
